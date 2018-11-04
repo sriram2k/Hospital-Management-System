@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#login{
+width:150px;
+margin:15px;
+}
+.a{
+background-color:powderblue;
+height:80px;
+}
+.b{
+float:right;
+margin:auto;
+}
+.b1{
+width:100px;
+padding:5px;
+background-color:#48C352;
+}
+.b2{
+width:100px;
+padding:5px;
+background-color:#f44336;
+}
+.f1{
+margin:auto;
+margin-top:40px;
+width:300px;
+padding: 10px 10px 10px 10px;
+border:0px 40px 0px 0px;
+border-style:dashed;
+border-color:red;
+border-radius:8px
+}
+h3{
+text-align:center;
+color:red;
+}
+</style>
+</head>
+<body>
+<header class="header1">
+<div class="a"><h3><img style="float:left;" src="http://www.ipharmd.net/images/red_cross_red_round.png" alt=" " width="70" height="70" >HOSPITAL MANAGEMENT SYSTEM<img style="float:right;" src="http://www.ipharmd.net/images/red_cross_red_round.png" alt=" " width="70" height="70"></h3>
+
+</div>
+</header>
+<h3><center>SIGN UP</center></h3>
+<form action="Homepage" class="f1">
+<table>
+<tr>
+<th >User Name:</th><td><input type="text" name="firstname" id="login" placeholder="Enter the username" required oninvalid="this.setCustomValidity('Please Enter valid username')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th>Password:</th><td><input type="password" name="password" id="login" placeholder="Enter the password" required oninvalid="this.setCustomValidity('Please Enter valid password')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th>E-MAIL:</th><td><input type="email" name="email" id="login" placeholder="Enter the e-mail id" required oninvalid="this.setCustomValidity('Please Enter valid E-Mail id')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th>Mobile No.:</th><td><input type="number" name="mobile" id="login" placeholder="Enter the mobile no." required oninvalid="this.setCustomValidity('Please Enter valid mobile number')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<td><input type="submit" value="Sign Up" class="b1"></td>
+<td><input type="reset" value="Reset" class="b2"></td>
+</tr>
+</table>
+</form>
+</html>

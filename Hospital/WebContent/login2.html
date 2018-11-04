@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+table{margin:auto;border-radius:10px;border-style:dashed;font-size:20px;font-weight:italic;width:auto;height:auto;}
+#3{margin:center;padding:20px;}
+h5{text-decoration:underline;text-transform:uppercase;font-size:40px;font-weight:bold;}
+input{margin:0px 0px 0px 30px;}
+form{padding:10px 10px 10px 10px;}
+</style>
+</head>
+<body>
+<form action="Homepage1">
+<table>
+<center><h5><br>PATIENT'S DETAILS<br></h5></center>
+<tr>
+<th><label>NAME:</label></th><td><input type="text" name="name" id="1" placeholder="Enter your name" required oninvalid="this.setCustomValidity('Please Enter valid name')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th><label>D.O.B:</label></th><td><input type="text" name="dob" id="1" placeholder="dd-mm-yyyy" required oninvalid="this.setCustomValidity('Please Enter valid DOB')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th><label>AGE:</label></th><td><input type="number" name="age" id="1" placeholder="Enter the age" required oninvalid="this.setCustomValidity('Please Enter valid age')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th><label>GENDER:</label></th>
+<td><input type="radio" name="gender"  id="2">Male
+<input type="radio" name="gender" id="2" >Female<br><br></td>
+</tr>
+<tr>
+<th><label>BLOOD GROUP:<br>(IF KNOWN)</label></th><td><br><input type="text" name="bg" id="1" placeholder="Enter the Blood Group" required oninvalid="this.setCustomValidity('Please Enter valid Blood Group')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th><label>FATHER'S/SPOUSE<br>NAME:</label></th><td><br><input type="text" name="fname" id="1" placeholder="Enter the name" required oninvalid="this.setCustomValidity('Please Enter valid name')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th><label>COMMUNICATION<br>ADDRESS:</label></th><td><textarea rows="4" cols="30" placeholder="Enter the address" name="address" required oninvalid="this.setCustomValidity('Please Enter valid Address')" oninput="this.setCustomValidity('')"></textarea><br><br></td>
+</tr>
+<tr>
+<th><label>CONTACT PH.NO. FOR<br>COMMUNICATION:</label></th><td><br><input type="number" name="no" id="1" placeholder="Enter the Phone number" required oninvalid="this.setCustomValidity('Please Enter valid phone number')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th><label>RELATIONSHIP WITH<br>THE PATIENT:</label></th><td><input type="text" name="rel" id="1" placeholder="Enter your relation" required oninvalid="this.setCustomValidity('Please Enter valid relationship')" oninput="this.setCustomValidity('')"><br><br></td>
+</tr>
+<tr>
+<th><br><input type="submit" value="Submit" id="3">
+<input type="reset" value="Reset" id="3"><br></th>
+</tr>
+</table>
+</form>
+</body>
+</html>
